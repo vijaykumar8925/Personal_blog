@@ -43,7 +43,7 @@ export default function AppSkills () {
                         <section className='mordern-sec' id='mordenweb'>
                         <h2>Mordern Web</h2>
                             <ul>
-                                <li>Recat</li>
+                                <li>React</li>
                                 <li>Redux</li>
                                 <li>Express.js</li>
                                 <li>MySql</li>

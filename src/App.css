@@ -535,6 +535,54 @@
   .title p {
     width: 100%;
   }
+  .pricing-block .contents .interest-sec li{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .pricing-block .contents .interest-sec h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .pricing-block .contents .core-sec li{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .pricing-block .contents .core-sec h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .pricing-block .contents .mordern-sec li{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .pricing-block .contents .mordern-sec h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* .intro-block{
+    margin-right: 0;
+    padding-right:0 ;
+  } */
+  .pricing-block .contents .interest-sec{
+    border-bottom: none;
+  }
+  .pricing-block .contents .core-sec {
+    border-bottom: none;
+  }
+  .pricing-block .contents .mordern-sec{
+    border-bottom: none;
+  }
+  .intro-block .intro-content{
+    font-size: 40px;
+  }
+  .intro-block .wrapper .txt{
+    font-size: 20px;
+    padding-top: 7px;
+  }
+  .intro-block .wrapper .run-text  li{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width : 980px) {
