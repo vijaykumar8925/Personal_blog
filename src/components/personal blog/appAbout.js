@@ -65,16 +65,17 @@ export default function AppAbout () {
             const daysTxt = ["day", "days"];
         
             //Convert to days and sum together
-            const total_days = (years_passed * 365) + (months_passed * 30.417) + days_passed;
+        
         
             //display result with custom text
-            const result = ((years_passed == 1) ? years_passed + ' ' + yrsTxt[0] + ' ' : (years_passed > 1) ?
+            const result = ((+years_passed === 1) ? years_passed + ' ' + yrsTxt[0] + ' ' : (years_passed > 1) ?
                 years_passed + ' ' + yrsTxt[1] + ' ' : '') +
-                ((months_passed == 1) ? months_passed + ' ' + mnthsTxt[0] : (months_passed > 1) ?
+                ((+months_passed === 1) ? months_passed + ' ' + mnthsTxt[0] : (months_passed > 1) ?
                     months_passed + ' ' + mnthsTxt[1] + ' ' : '') +
-                ((days_passed == 1) ? days_passed + ' ' + daysTxt[0] : (days_passed > 1) ?
+                ((+days_passed === 1) ? days_passed + ' ' + daysTxt[0] : (days_passed > 1) ?
                     days_passed + ' ' + daysTxt[1] : '');
                     setAge(years_passed)
+                    console.log(result)
         }
     
     },[])
