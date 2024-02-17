@@ -23,7 +23,7 @@ export default function AppCrosual () {
         }
       ]
     return(
-       <section id='testimonials' className='testimonials-block'>
+       <section id='testimonials' className='block testimonials-block'>
         <Container fluid>
             <div className='title-holder'>
                 <h2>Inspiring Quotes</h2>
