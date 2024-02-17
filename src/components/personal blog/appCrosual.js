@@ -33,7 +33,7 @@ export default function AppCrosual () {
                     testimonialsData.map((val) => (
                         <Carousel.Item id={val.id}>
                         <blockquote>
-                        <img className='image' src={val.image}/>
+                        <img className='image' src={val.image} alt='loading'/>
                             <p>{val.description}</p>
                             <cite>
                                 <span className='name'>{val.name}</span>

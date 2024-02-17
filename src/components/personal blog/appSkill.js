@@ -1,27 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Carousel from 'react-bootstrap/Carousel';
+
 
 export default function AppSkills () {
-   const skilldata = [
-    {
-        id : 1,
-        title : 'Interest',
-        filed : ['Web','Backend','Design','Functionality']
-    },
-    {
-         id : 2,
-         title : 'Core',
-         filed : ['HTML','JS','CSS','NODE']
-    },
-    {
-        id : 3,
-         title : 'Mordern Web',
-         filed : ['React','Express.js','Redux','MySql']
-    }
-   ]
     return(
         <section id="skills" className="block pricing-block">
            <Container fluid>

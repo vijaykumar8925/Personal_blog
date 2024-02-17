@@ -1,8 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BlogHeader from './components/personal blog/blogHeader';
 import './App.css'
-import BasicExample from './components/personal blog/blogHeader';
+import AppHeader from './components/personal blog/blogHeader';
 import AppIntro from './components/personal blog/intro';
 import AppAbout from './components/personal blog/appAbout';
 import AppSkills from './components/personal blog/appSkill';
@@ -14,7 +13,7 @@ export default function App () {
   return(
      <div className='App'>
       <header id='header'>
-        <BasicExample/>
+        <AppHeader/>
       </header>
       <main>
         <AppIntro/>
